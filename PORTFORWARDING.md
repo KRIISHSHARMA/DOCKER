@@ -5,6 +5,9 @@
 ```bash
  docker pull nginx
 ```
+```bash
+docker pull ubuntu/apache2
+```
 # SEE IMGAGES/INSPECT
 ```bash
  docker images
@@ -15,6 +18,9 @@
 # PORT FORWADING 
 ```bash
 docker run --name mynginxl -p 80:80 -d nginx
+```
+```bash
+docker run --name myapache -p 80:80 -d ubuntu/apache2
 ```
 # KILLING IMAGE
 ```bash
