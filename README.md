@@ -63,6 +63,9 @@ sudo chmod +x /usr/local/bin/docker-compose
 ```bash
  docker pull nginx
 ```
+```bash
+docker pull ubuntu/apache2
+```
 # SEE IMGAGES/INSPECT
 ```bash
  docker images
