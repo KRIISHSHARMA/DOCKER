@@ -56,3 +56,12 @@ Apply executable permissions to the binary:
 ```bash
 sudo chmod +x /usr/local/bin/docker-compose
 ```
+# PULL IMAGES 
+
+ '''docker pull hello-world'''
+ '''docker pull nginx'''
+# SEE IMGAGES 
+'''docker images'''
+'''docker inspect''' 
+# PORT FORWADING 
+'''docker run --name mynginxl -p 80:80 -d nginx'''
