@@ -74,6 +74,9 @@ sudo chmod +x /usr/local/bin/docker-compose
 ```bash
 docker run --name mynginxl -p 80:80 -d nginx
 ```
+```bash
+docker run --name myapache -p 80:80 -d ubuntu/apache2
+```
 # KILLING IMAGE
 ```bash
 docker kill mynginxl
