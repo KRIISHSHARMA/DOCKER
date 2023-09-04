@@ -58,10 +58,14 @@ sudo chmod +x /usr/local/bin/docker-compose
 ```
 # PULL IMAGES 
 
- ``` bash docker pull hello-world```
- ```bash docker pull nginx```
-# SEE IMGAGES 
-```bash docker images```
-```bash docker inspect``` 
+ docker pull hello-world
+ docker pull nginx
+# SEE IMGAGES:
+```bash
+ docker images
+```
+```bash
+ docker inspect
+```
 # PORT FORWADING 
-```bash docker run --name mynginxl -p 80:80 -d nginx```
+docker run --name mynginxl -p 80:80 -d nginx
