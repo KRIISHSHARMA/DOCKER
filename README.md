@@ -73,6 +73,9 @@ docker pull ubuntu/apache2
 ```bash
  docker inspect
 ```
+```bash
+  docker ps
+```
 # PORT FORWADING 
 ```bash
 docker run --name mynginxl -p 80:80 -d nginx
