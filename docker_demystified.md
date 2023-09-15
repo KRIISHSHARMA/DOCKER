@@ -39,4 +39,4 @@ docker run -dit --name my_container busybox:latest
 ``` bash
 docker exec -i -t my_container sh
 ```
--sh : sh can take input from either a keyboar
+-sh : sh can take input from either a keyboard or a file 
