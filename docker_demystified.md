@@ -11,7 +11,7 @@ docker --version
 docker run --name mydocker busybox:latest
 ```
 - name : refers to name of the container
-- busybox:latest : image we are intrested in . the tag latest signifies that it will pull from registry the latest image of Busybox
+- busybox:latest : image we are intrested in . the tag latest signifies that it will pull from registry the latest image of Busybox ,  is a tiny little Linux binary that is meant for embedded systems
 
 *pausing a container*
 ``` bash
